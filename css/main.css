@@ -94,9 +94,6 @@ body{
     background-color: transparent;
 
  }
- footer{
-    margin-top: 40px;
- }
 
  @media(max-width: 800px){
     .flex-container{
