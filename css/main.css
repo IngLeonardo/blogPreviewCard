@@ -14,4 +14,95 @@
 body{
     font-family: "Figtree", sans-serif;
     font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primario-Yellow);
+    
 }
+.flex-container{
+    width: 24em;
+    height: auto;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    background-color: var(--color-secundario-White);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
+}
+ .img-container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .img-primary{
+    width: 336px;
+    height: 200px;
+    margin: 24px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+ .section-center{
+    width: 88%;
+    margin: 0 24px;
+ }
+ span{
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: var(--color-primario-Yellow);
+    font-size: 14px;
+    font-weight: bold;
+ }
+ .fecha{
+    font-size: 14px;
+    margin: 15px 0;
+ }
+ .contenido{
+    font-size: 14px;
+    margin: 15px 0;
+    padding-right: 15px;
+    color: var(--color-secundario-Grey);
+ }
+ .section-end{
+    width: 88%;
+    margin: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+ }
+ .img-avatar{
+    width: 32px;
+    height: 32px;
+
+ }
+ .section-end span{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+
+ }
+ footer{
+    margin-top: 40px;
+ }
+
+ @media(max-width: 800px){
+    .flex-container{
+        width: 327px;
+    }
+    .img-primary{
+        width: 90%;
+     }
+ }
